@@ -1,0 +1,47 @@
+# Cline memory bank and rules
+memory-bank/
+.clinerules
+
+# Dependency directories
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Test files
+test-client.log
+test-*.js
+test-*.ts
+
+# Simple server
+/MCP/linear-mcp-simple/

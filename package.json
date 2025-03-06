@@ -1,0 +1,29 @@
+{
+  "name": "linear-mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol server for Linear",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "start": "node build/index.js",
+    "test": "node test-client.js",
+    "dev": "tsc -w"
+  },
+  "keywords": [
+    "linear",
+    "mcp",
+    "claude",
+    "anthropic"
+  ],
+  "author": "Cline",
+  "license": "MIT",
+  "dependencies": {
+    "@linear/sdk": "^2.0.0",
+    "@modelcontextprotocol/sdk": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
